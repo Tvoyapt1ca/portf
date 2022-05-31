@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="kelvin.css">
+    <link rel="stylesheet" href="media/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="header" id="idhome">
+        <div class="container">
+            <div class="header__flex">
+                <div class="header__logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <nav id="nav" class="nav ">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#service" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Contact</a></li>
+                    </ul>
+                    <button id="button__header" class="button__header">
+                        <img id="nav__btn__img" src="../img/navopen.svg" alt="Nav button">
+                    </button>
+                </nav>
+            </div>
+
+            <div class="header__intro">
+                <div class="header__content" data-aos="fade-up">
+                    <div class="header__text">
+                        <div class="header__title">Kelvin Kramer <br>  <span>Designer & Developer</span> </div>
+                        <div class="header__subtitle">I’m a portrait, fashion and lifestyle photographer living In New
+                            York City. <br> During my thirteen year tenure here.</div>
+                    </div>
+                    <div class="header__img" data-aos="fade-left">
+                        <picture>
+                            <source media="(max-width:799px)" srcset="img/hero2.png">
+                            <img src="../img/hero1.png" alt="">
+                        </picture>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="service" id="service">
+        <div class="container">
+            <div class="service__flex">
+                <div class="service__item" data-aos="flip-down" >
+                    <img class="service__item-img" src="img/graphic 1.svg" alt="">
+                    <div class="service__item-title">UI/UX Design</div>
+                    <div class="service__item-subtitle">Our design is translated into comprehensive digital environments
+                        built on latest development standards.</div>
+                </div>
+                <div class="service__item" data-aos="flip-down">
+                    <img class="service__item-img" src="img/startup 1.svg" alt="">
+                    <div class="service__item-title">Development</div>
+                    <div class="service__item-subtitle">Our design is translated into comprehensive digital environments
+                        built on latest development standards.</div>
+                </div>
+                <div class="service__item" data-aos="flip-down">
+                    <img class="service__item-img" src="img/browser 1.svg" alt="">
+                    <div class="service__item-title">software testing</div>
+                    <div class="service__item-subtitle">Our design is translated into comprehensive digital environments
+                        built on latest development standards.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="portfolio__title ">Portfolio</div>
+            <div class="progect" data-aos="flip-up">
+                <img class="project__img" src="img/Слой 8.jpg" alt="">
+                <div class="project__link"><a href="">Online fashion store - Homepage</a></div>
+            </div>
+            <div class="progect" data-aos="flip-up">
+                <img class="project__img" src="img/reebok_web (1).jpg" alt="">
+                <div class="project__link"><a href="">Reebok Store - Concept</a></div>
+            </div>
+            <div class="progect" data-aos="flip-up">
+                <img class="project__img" src="img/reebok_web.jpg" alt="">
+                <div class="project__link"><a href="">Braun Landing Page - Concept</a></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="portfolio__title contactstext">
+                Contacts
+            </div>
+            <div class="contacts__conent">
+                Want to know more or just chat? <br> You are welcome!
+            </div>
+            <button class="button" data-aos="zoom-out-up">Send message</button>
+            <div class="contacts__social" data-aos="zoom-in">
+                <a href=""><img src="img/Instargam.svg" alt=""></a>
+                <a href=""><img src="img/LinkedIn.svg" alt=""></a>
+                <a href=""><img src="img/Dribble.svg" alt=""></a>
+                <a href=""><img src="img/Behance.svg" alt=""></a>
+            </div>
+            <div class="contacts-footer" data-aos="fade-up">
+                <p>Like me on<br> LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="javaskript/jskelvin.js"></script>
+
+</body>
+</html>
